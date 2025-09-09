@@ -1,0 +1,9 @@
+.preview {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-lg);
+
+    a {
+        align-self: flex-end;
+    }
+}

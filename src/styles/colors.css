@@ -1,0 +1,30 @@
+:root {
+    --color-info: #0000c1;
+    --color-warning: #c58101;
+    --color-success: #007000;
+    --color-error: #c60303;
+    --color-loading: #078caf;
+    --color-hover: #ad4efb;
+    --color-body: var(--color-white);
+    --color-text: var(--color-batcave);
+    --color-border: var(--color-seagull);
+    --color-input-border: var(--color-seagull);
+    --color-control-background: rgba(0, 0, 0, 0.3);
+
+    --box-shadow-hover: 0 4px 8px 0 rgb(var(--rgb-black), 0.1), 0 0 1px 0 rgb(var(--rgb-black), 0.1);
+
+    --elevation-1: 0 1px 0 rgba(var(--rgb-black), 1);
+    --elevation-2: 0 0 1px rgba(var(--rgb-black), 0.1), 0 2px 4px rgba(var(--rgb-black), 0.08);
+    --elevation-3: 0 0 1px rgba(var(--rgb-black), 0.08), 0 4px 8px rgba(0, 0, 0, 0.1);
+    --elevation-4: 0 0 2px rgba(var(--rgb-black), 0.05), 0 4px 16px rgba(var(--rgb-black), 0.2);
+    --elevation-5: 0 0 16px rgba(var(--rgb-black), 0.05), 0 32px 32px -20px rgba(var(--rgb-black), 0.4);
+
+    --rgb-black: 0, 0, 0;
+    --rgb-white: 255, 255, 255;
+    --color-batcave: #232a31;
+    --color-battleship: #5b636a;
+    --color-black: #000;
+    --color-grape: #6001d2;
+    --color-seagull: #c5d1da;
+    --color-white: #fff;
+}

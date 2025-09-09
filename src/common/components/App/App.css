@@ -1,0 +1,14 @@
+header {
+    top: 0;
+    position: fixed;
+    width: 100%;
+    height: var(--app-header-height);
+    background-color: var(--color-body);
+    z-index: var(--app-header-z-index);
+    border-bottom: 1px solid var(--color-border);
+}
+
+main {
+    min-height: 100dvh;
+    padding-top: var(--app-header-offset);
+}

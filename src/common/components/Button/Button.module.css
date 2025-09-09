@@ -1,0 +1,27 @@
+.button {
+    cursor: pointer;
+    border: 1px solid;
+    font-weight: var(--font-weight-bold);
+    padding: var(--padding-md) var(--padding-lg);
+    border-radius: var(--radius-button);
+
+    &:hover {
+        box-shadow: var(--box-shadow-hover);
+    }
+
+    color: var(--color-white);
+    border-color: var(--color-grape);
+    background-color: var(--color-grape);
+
+    &:global(.secondary) {
+        color: var(--color-grape);
+        border-color: var(--color-grape);
+        background-color: var(--color-white);
+    }
+
+    &:global(.tertiary) {
+        color: var(--color-text-primary);
+        border-color: var(--color-seagull);
+        background-color: var(--color-white);
+    }
+}

@@ -1,0 +1,7 @@
+.textInput {
+    height: var(--input-height);
+    border: 0.0625rem solid var(--color-input-border);
+    border-radius: var(--input-radius);
+    padding-inline-start: var(--input-padding);
+    padding-inline-end: var(--input-padding);
+}

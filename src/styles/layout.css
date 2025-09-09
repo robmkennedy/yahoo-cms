@@ -1,0 +1,46 @@
+:root {
+    --app-header-height: 3.75rem;
+    --app-header-offset: 3.75rem;
+    --app-header-z-index: var(--z-index-app);
+    --app-padding: var(--spacing-md);
+
+    --input-padding: 1rem;
+    --input-height: 2.25rem;
+    --input-radius: var(--radius-sm);
+
+    --z-index-app: 100;
+    --z-index-modal: 200;
+    --z-index-popover: 300;
+    --z-index-overlay: 400;
+    --z-index-max: 9999;
+
+    --container-width: 1140px;
+    --article-aspect-ratio: 640 / 420;
+    --cursor-type: default;
+
+    --breakpoint-xs: 36em;
+    --breakpoint-sm: 48em;
+    --breakpoint-md: 62em;
+    --breakpoint-lg: 75em;
+    --breakpoint-xl: 88em;
+
+    --spacing-xxs: 0.5rem;
+    --spacing-xs: 0.625rem;
+    --spacing-sm: 0.75rem;
+    --spacing-md: 1rem;
+    --spacing-lg: 1.25rem;
+    --spacing-xl: 1.75rem;
+
+    --padding-xs: 0.125rem;
+    --padding-sm: 0.25rem;
+    --padding-md: 0.5rem;
+    --padding-lg: 1rem;
+    --padding-xl: 2rem;
+
+    --radius-button: 5rem;
+    --radius-xs: 0.25rem;
+    --radius-sm: 0.5rem;
+    --radius-md: 0.75rem;
+    --radius-lg: 1rem;
+    --radius-xl: 2rem;
+}

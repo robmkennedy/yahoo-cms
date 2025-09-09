@@ -1,0 +1,40 @@
+{
+    "app": {
+        "header": {
+            "title": "News",
+            "nav": {
+                "today": "Article Management",
+                "about": "About This App"
+            }
+        }
+    },
+    "common": {
+        "close": "Close",
+        "error": {
+            "title": "Houston, we have a problem",
+            "message": "An unexpected error has occurred. Sorry about that."
+        },
+        "validation": {
+            "charCount": "Must be less than {{count}} characters",
+            "invalidUrl": "Must be a valid URL"
+        }
+    },
+    "articleForm": {
+        "title": "Article Input Form",
+        "longTitle": "Long Title",
+        "shortTitle": "Short Title",
+        "description": "Description",
+        "imageUrl": "Image URL",
+        "ctaText": "CTA Text",
+        "clickUrl": "CTA URL"
+    },
+    "articleControls": {
+        "reset": "Reset Article"
+    },
+    "articlePreview": {
+        "title": "Article Preview"
+    },
+    "about": {
+        "title": "About Application"
+    }
+}

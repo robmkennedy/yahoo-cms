@@ -1,0 +1,40 @@
+@import 'fonts.css';
+@import 'colors.css';
+@import 'layout.css';
+
+:root {
+    font-family: var(--font-family), serif;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    color: var(--color-text);
+    font-size: var(--font-size-14);
+    font-weight: var(--font-weight-medium);
+    background-color: var(--color-body);
+}
+
+a {
+    color: var(--color-battleship);
+    font-weight: var(--font-weight-medium);
+    text-decoration: inherit;
+}
+a:hover {
+    color: var(--color-grape);
+}
+
+code {
+    color: var(--color-loading);
+    border-radius: var(--radius-sm);
+}

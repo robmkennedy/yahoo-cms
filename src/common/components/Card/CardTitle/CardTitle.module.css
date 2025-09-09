@@ -1,0 +1,11 @@
+.cardTitle {
+    display: flex;
+    gap: var(--padding-md);
+    margin-bottom: var(--spacing-lg);
+
+    .cardTitleTag {
+        width: var(--spacing-sm);
+        background-color: var(--color-grape);
+        border-radius: var(--radius-xs);
+    }
+}

@@ -1,0 +1,41 @@
+.articleImage {
+    display: block;
+    position: relative;
+    color: var(--color-white);
+
+    img {
+        width: 100%;
+        display: block;
+        border-radius: var(--radius-md);
+    }
+
+    .description {
+        position: absolute;
+        padding: var(--padding-lg) var(--padding-lg);
+        bottom: 0;
+        border-radius: var(--radius-md);
+        background-color: var(--color-control-background);
+
+        .title {
+            font-size: var(--font-size-16);
+
+            @media (width >= 48em) {
+                /* min sm width */
+                font-size: var(--font-size-18);
+            }
+
+            @media (width >= 62em) {
+                /* min md width */
+                font-size: var(--h2-font-size);
+            }
+        }
+
+        .summary {
+            display: none;
+            @media (width >= 48em) {
+                /* min sm width */
+                display: block;
+            }
+        }
+    }
+}

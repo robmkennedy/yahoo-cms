@@ -1,0 +1,32 @@
+.articleInput {
+    display: flex;
+    flex-direction: column;
+    gap: var(--padding-sm);
+
+    .title {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .input {
+        height: var(--input-height);
+        border: 0.0625rem solid var(--color-input-border);
+        border-radius: var(--input-radius);
+        padding-inline-start: var(--input-padding);
+        padding-inline-end: var(--input-padding);
+
+        &.error {
+            border-color: var(--color-error);
+        }
+    }
+
+    .message {
+        display: flex;
+        align-items: center;
+        gap: var(--padding-sm);
+        svg {
+            width: 1.2rem;
+        }
+        color: var(--color-error);
+    }
+}
