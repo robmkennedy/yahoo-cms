@@ -1,24 +1,10 @@
 .previewLayout {
     display: grid;
     gap: var(--spacing-xl);
-    grid-template-columns: 100%;
-    grid-template-areas: 'center' 'side';
+    grid-template-columns: 1fr;
 
     @media (width >= 48em) {
         /* min sm width */
-        grid-template-columns: 30% auto;
-        grid-template-areas: 'center side';
-    }
-    @media (width >= 62em) {
-        /* min md width */
-        grid-template-columns: 30% auto;
-    }
-    @media (width >= 75em) {
-        /* min lg width */
-        grid-template-columns: 30% auto;
-    }
-    @media (width >= 88em) {
-        /* min xl width */
-        grid-template-columns: 30% auto;
+        grid-template-columns: 1fr 1fr;
     }
 }
