@@ -4,7 +4,8 @@
             "title": "News",
             "nav": {
                 "today": "Article Management",
-                "about": "About This App"
+                "about": "About This App",
+                "design": "Design & Performance"
             }
         }
     },
@@ -35,6 +36,18 @@
         "title": "Article Preview"
     },
     "about": {
-        "title": "About Application"
+        "title": "About This App"
+    },
+    "design": {
+        "title": "Design"
+    },
+    "performance": {
+        "title": "Performance"
+    },
+    "state": {
+        "title": "State Management"
+    },
+    "datadog": {
+        "title": "Datadog"
     }
 }

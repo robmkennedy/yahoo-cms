@@ -1,5 +1,5 @@
 import { HeaderLink } from '@common/components/HeaderPanel/HeaderNav/HeaderLink/HeaderLink';
-import { todayIcon, aboutIcon } from '@/assets/images/icons';
+import { todayIcon, aboutIcon, designIcon } from '@/assets/images/icons';
 import { useTranslation } from 'react-i18next';
 import styles from './HeaderNav.module.css';
 
@@ -14,6 +14,7 @@ export function HeaderNav() {
         <nav className={styles.headerNav}>
             <HeaderLink to={'today'} label={t('app.header.nav.today')} icon={todayIcon} />
             <HeaderLink to={'about'} label={t('app.header.nav.about')} icon={aboutIcon} />
+            <HeaderLink to={'design'} label={t('app.header.nav.design')} icon={designIcon} />
         </nav>
     );
 }

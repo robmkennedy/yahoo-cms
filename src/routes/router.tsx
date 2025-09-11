@@ -1,6 +1,7 @@
 import { createBrowserRouter, Navigate } from 'react-router';
 import { App } from '@common/components/App/App';
 import { AboutPage } from '@features/about/components/AboutPage/AboutPage';
+import { DesignPage } from '@features/design/components/DesignPage/DesignPage';
 import { ArticlePage } from '@features/article/components/ArticlePage/ArticlePage';
 import { ErrorFallback } from '@common/components/ErrorFallback/ErrorFallback';
 
@@ -19,6 +20,7 @@ export const router = createBrowserRouter(
                 { index: true, element: <Navigate to='/article' /> },
                 { path: '/article', Component: ArticlePage },
                 { path: '/about', Component: AboutPage },
+                { path: '/design', Component: DesignPage },
                 { path: '/*', element: <Navigate to='/article' /> }
             ],
             errorElement: <ErrorFallback />
